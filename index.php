@@ -29,6 +29,13 @@
   echo $resp;
   exit(0);
  }
+//estructura de liga
+$props = array('ol' => array('style'=>'font-weight:bold'),
+               'li' => 'title="Mide @{strlen("@[1]")}@ caracteres"',
+               'li@si(strlen("@[nombre]")>7)'  => 'style="color:red"',
+               'li@si("@[nombre]"=="Galileo")' => 'style="color:blue"');
+HTML::lista(LIGA('usuarios'), '1', true, $props);
+
   // Imprimo las etiquetas HTML iniciales
   HTML::cabeceras(array('title'      =>'Pruebas LIGA 3',
 			'description'=>'Página de pruebas para LIGA 3',
