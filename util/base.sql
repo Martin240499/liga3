@@ -42,9 +42,6 @@ CREATE TABLE IF NOT EXISTS `historial` (
 INSERT INTO `historial` (`id`, `evento`, `fecha`) VALUES
 (1, 'Se insertó un nuevo usuario con ID: 16 con el nombre: Otro nuevo', '2012-02-24 21:41:52'),
 (2, 'Se insertó un nuevo usuario con ID: 1 con el nombre: Galileo', '2012-02-26 18:40:03'),
-(3, 'Se insertó un nuevo usuario con ID: 6 con el nombre: Yesenia', '2012-03-04 01:09:13'),
-(4, 'Se insertó un nuevo usuario con ID: 7 con el nombre: Carmen Lizette del Toro Sánchez', '2012-03-04 04:31:48'),
-(5, 'Se insertó un nuevo usuario con ID: 8 con el nombre: Carmen Lizette del Toro Sánchez', '2012-03-04 04:32:41'),
 (6, 'Se insertó un nuevo usuario con ID: 9 con el nombre: Fabian', '2012-03-04 05:35:56'),
 (7, 'Se insertó un nuevo usuario con ID: 10 con el nombre: Arturo', '2012-03-04 05:36:04'),
 (8, 'Se insertó un nuevo usuario con ID: 7 con el nombre: Galileo', '2012-04-20 05:41:33'),
